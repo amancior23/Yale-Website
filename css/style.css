@@ -5,9 +5,14 @@
 
 .container{
   /* position: fixed;  */
-  /* position: sticky; */
   height: 100%;
   width: 100%; 
+}
+
+.nav{
+  /* position: absolute; */
+  width: 100%;
+  background-color: blue;
 }
 
 .navbar {
@@ -29,6 +34,7 @@
   padding-right: 30px;
   font-size: 22px;
   height: 100%;
+  
   /*   word-spacing: 1rem; */
   /*   display: inline-block; */
 }
@@ -129,4 +135,112 @@ p {
   margin-right: auto;
   margin-top: 100px;
   border-radius: 50%;
+}
+
+/* .bottomDiv{
+  background-color: #00356b;
+  width: 100%;
+  height: 100px;
+} */
+
+/* ---------------------------------------------------------------- contact.html ---------------------------------------------------------------- */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.formBox {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* ---------------------------------------------------------------- aboutus.html ---------------------------------------------------------------- */
+
+.aboutUsBody{
+  background-color: #D3D3D3; 
+  height: 700px;
+  width: 100%;
+}
+
+.aboutus1
+{
+  /* float: left; */
+  position: absolute;
+  left: 400px;
+  bottom: 100px;
+  border: solid black;
+  background-color: #e3dac9;
+  text-align: left;
+  width: 300px;
+  height: 400px;
+  font-size:large;
+}
+
+.pictureOfMichael {
+  border: solid black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 70px;
+  padding: 5px;
+}
+.myH
+{
+  text-align: center;
+  margin-top: 10px;
+}
+.textM {
+  padding: 2px;
+}
+
+.pictureOfJulian {
+  float: right;
+  position: absolute;
+  /* top: 100px; */
+  border: solid black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  bottom: 170px;
+  right: 70px;
+  padding: 5px;
+
+}
+
+.aboutus2{
+  position: absolute;
+  right: 400px;
+  bottom: 100px;
+  border: solid black;
+  background-color: #e3dac9;
+  text-align: left;
+  width: 300px;
+  height: 400px;
+  font-size:large;
 }

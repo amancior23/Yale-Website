@@ -10,33 +10,63 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <div class="navbarContainer">
-      <a href="homePage.html">Hypotheticals</a>
-
-      <!--       <img class="logo" src="/images/yaleLogo.png" height="100" width="100"> -->
-      <i>
-        <div class="navbarMenu">
-          <ul>
-            <ls>
-              <a href="aboutus.html">About Us</a>
-            </ls>
-            <ls>
-              <a href="platform.html">Platform</a>
-            </ls>
-            <ls>
-              <a href="contact.html">Contact</a>
-            </ls>
-            <ls class="vl"></ls>
-            <ls>
-              <a href="https://www.instagram.com/" target="_blank" class="fa-brands fa-instagram"></a>
-            </ls>
-          </ul>
-      </i>
+  <div class="container">
+    <div class="nav">
+    <nav class="navbar">
+      <div class="navbarContainer">
+        <a href="homePage.html">Random Title</a>
+        <br>
+        <h5>Vote Blank and Blank</h5>
+        <!--       <img class="logo" src="/images/yaleLogo.png" height="100" width="100"> -->
+        <i>
+          <div class="navbarMenu">
+            <ul>
+              <ls>
+                <a href="aboutus.html">About Us</a>
+              </ls>
+              <ls>
+                <a href="platform.html">Platform</a>
+              </ls>
+              <ls>
+                <a href="contact.html">Contact</a>
+              </ls>
+              <ls class="vl"></ls>
+              <ls>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <span class="fa-brands fa-instagram"></span>
+                </a>
+              </ls>
+            </ul>
+          </div>
+        </i>
+      </div>
+    </nav>
     </div>
-  </nav>
-
-
+    <div class="formBox">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <!-- <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select> -->
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+  </div>
+    
   <script src="script.js"></script>
 
 
