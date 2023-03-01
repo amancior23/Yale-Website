@@ -12,11 +12,11 @@
 <body>
   <div class="container">
     <div class="nav">
+      <img class="Y" src="/images/Y.jpg" width="200">
     <nav class="navbar">
       <div class="navbarContainer">
         <a href="homePage.html">Random Title</a>
-        <br>
-        <h5>Vote Blank and Blank</h5>
+        <h5 class="vote">Vote Julian Suh-Toma and Michael Ndubisi</h5>
         <!--       <img class="logo" src="/images/yaleLogo.png" height="100" width="100"> -->
         <i>
           <div class="navbarMenu">
@@ -42,31 +42,25 @@
       </div>
     </nav>
     </div>
-    <div class="formBox">
-      <form action="action_page.php">
-    
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    
-        <!-- <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select> -->
-    
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    
-        <input type="submit" value="Submit">
-    
+    <div class="contact">
+      <form>
+        <div class="input">
+          <input type="text" id="name" required>
+          <label for="name">Your Name</label>
+        </div>
+        <div class="input">
+          <input type="email" id="email" required>
+          <label for="email">Email ID</label>
+        </div>
+        <div class="input">
+          <textarea id="message" rows="8"></textarea>
+          <label for="message">Your Message</label>
+        </div>
+        <button type="submit">SUBMIT</button>
       </form>
     </div>
   </div>
-    
+  
   <script src="script.js"></script>
 
 
