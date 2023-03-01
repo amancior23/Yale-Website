@@ -12,8 +12,26 @@
 .nav{
   /* position: absolute; */
   width: 100%;
-  background-color: blue;
+  background-color: white;
 }
+
+.Y{
+  top: 11px;
+  position: absolute;
+  height: 125px;
+  width: 100px;
+  /* right: 700px; */
+  display: block;
+  left: 711px;
+  border: solid #FEF4D4;
+  border-radius: 50%;
+}
+
+.vote {
+  margin-top: 0px;
+  color: white;
+
+} 
 
 .navbar {
   background-color: #00356b;
@@ -40,16 +58,16 @@
 }
 
 a {
-  color: grey;
+  color: #FEF4D4;
   text-decoration: none;
 }
 
-.vl {
+/* .vl {
   border-left: 2px solid black;
   height: 10px;
   position: absolute;
   right: 61px;
-}
+} */
 
 ls {
   padding: 15px;
@@ -68,7 +86,7 @@ ls {
 }
 
 a:hover {
-  color: white;
+  color: black;
 }
 
 /* .logo {
@@ -89,7 +107,7 @@ a:hover {
   right: 250px;
   bottom: 100px;
   border: solid black;
-  background-color: #e3dac9;
+  background-color: #FEF4D4;
   text-align: left;
   width: 400px;
   height: 500px;
@@ -194,7 +212,7 @@ input[type=submit]:hover {
   left: 400px;
   bottom: 100px;
   border: solid black;
-  background-color: #e3dac9;
+  background-color: #FEF4D4;
   text-align: left;
   width: 300px;
   height: 400px;
@@ -216,7 +234,7 @@ input[type=submit]:hover {
   margin-top: 10px;
 }
 .textM {
-  padding: 2px;
+  padding: 5px;
 }
 
 .pictureOfJulian {
@@ -238,7 +256,7 @@ input[type=submit]:hover {
   right: 400px;
   bottom: 100px;
   border: solid black;
-  background-color: #e3dac9;
+  background-color: #FEF4D4;
   text-align: left;
   width: 300px;
   height: 400px;
