@@ -262,25 +262,67 @@ input, textarea{
 /* ---------------------------------------------------------------- platform.html ---------------------------------------------------------------- */
 
 .collapse {
-  /* text-align: center; */
+  right: 50%;
+  text-align: center;
   width: 400px;
-  height: 10px;
+  height: 40px;
   background-color: white;
   display: block;
   margin: center;
   margin-top: 50px; 
   border-radius: 15px;
-  padding-top: 50px;
-  position: 
+  padding-top: 0px;
+  
+  /* position: */
+}
+#l2{
+  right: 50%;
+  text-align: center;
+  width: 400px;
+  height: 40px;
+  background-color: white;
+  display: block;
+  margin: center;
+  margin-top: 50px; 
+  border-radius: 15px;
+  padding-top: 0px;
+}
+#l3{
+  right: 50%;
+  text-align: center;
+  width: 400px;
+  height: 40px;
+  background-color: white;
+  display: block;
+  margin: center;
+  margin-top: 50px; 
+  border-radius: 15px;
+  padding-top: 0px;
+}
+label{
+  font-size: 30px;
+}
+.collapsable-text{
+  margin-top: 30px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: yellow;
+  padding: 10px;
 }
 
-.collapsable-text{
-  /* margin-top: 30px; */
+#myButton{
+  background: transparent; 
+  border: transparent; 
+  position: absolute;
+  right: 30px;
+  margin-top: 3px;
+  font-size: 30px;
 }
 
 .wrapper{
   /* margin-top:50px; */
-  position: absolute;;
-  justify-content: center;
+  position: absolute;
+  /* justify-content: center; */
+  right: 36.5%;
 
 }
