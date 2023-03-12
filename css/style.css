@@ -2,7 +2,15 @@
   margin: 0;
   padding: 0;
 }
-
+#email {
+  text-decoration: underline;
+}
+#bottomContact {
+  color: #FEF4D4;
+  font-size: 20px;
+  /* position: relative; */
+  text-decoration: bold none;
+}
 .ui-mobile, .ui-mobile body{
   background:#999;
 }
@@ -126,6 +134,7 @@ p {
 .boddy{
   position:relative;
   width: 100%;
+  background-color:#00356b;
   /* height: 1000px; */
 }
 
@@ -159,6 +168,14 @@ p {
   border-radius: 50%;
 }
 
+.bottomDiv {
+  height: 60px;
+  background-color:#00356b;
+  font-size: 20px;
+  padding-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
 /* .bottomDiv{
   background-color: #00356b;
   width: 100%;
@@ -197,8 +214,9 @@ input, textarea{
 
 .aboutUsBody{
   background-color: #D3D3D3; 
-  height: 700px;
+  
   width: 100%;
+  height: 650px;
 }
 
 .aboutus1
