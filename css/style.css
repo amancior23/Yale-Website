@@ -40,9 +40,9 @@
 }
 
 .vote {
-  margin-top: 0px;
+  padding-top: 0px;
   color: white;
-
+  font-size: large;
 } 
 
 .navbar {
