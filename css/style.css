@@ -209,6 +209,12 @@ input, textarea{
   /* background: transparent; */
   font-size: 15px;
 }
+.textM {
+  padding: 0px 15px;
+  text-align: left;
+  text-indent: 25px;
+  line-height: 25px;
+}
 
 /* ---------------------------------------------------------------- aboutus.html ---------------------------------------------------------------- */
 
@@ -223,32 +229,30 @@ input, textarea{
 {
   /* float: left; */
   position: absolute;
-  left: 400px;
-  bottom: 100px;
+  left: 650px;
+  bottom: 30px;
   border: solid black;
   background-color: #FEF4D4;
-  text-align: left;
-  width: 300px;
+  /* text-align: left; */
+  width: 600px;
   height: 400px;
   font-size:large;
+  
 }
 
 .pictureOfMichael {
   border: solid black;
   border-radius: 50%;
   height: 300px;
-  width: 300px;
-  margin-top: 70px;
-  margin-left: 70px;
+  width: 350px;
+  margin-top: 40px;
+  margin-left: 150px;
   padding: 5px;
 }
 .myH
 {
   text-align: center;
   margin-top: 10px;
-}
-.textM {
-  padding: 5px;
 }
 
 .pictureOfJulian {
