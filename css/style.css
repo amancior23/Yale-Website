@@ -281,9 +281,18 @@ input, textarea{
   font-size:large;
 }
 
-/* ---------------------------------------------------------------- platform.html ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- print.html ---------------------------------------------------------------- */
 
-.collapse {
+.articles {
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+
+
+/* .collapse {
   right: 50%;
   text-align: center;
   width: 400px;
@@ -296,7 +305,7 @@ input, textarea{
   padding-top: 0px;
   
   /* position: */
-}
+/* }
 #l2{
   right: 50%;
   text-align: center;
@@ -343,8 +352,7 @@ label{
 
 .wrapper{
   /* margin-top:50px; */
-  position: absolute;
+  /* position: absolute; */
   /* justify-content: center; */
-  right: 36.5%;
+  /* right: 36.5%; */
 
-}
