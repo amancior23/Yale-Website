@@ -28,13 +28,13 @@
 }
 
 .Y{
-  top: 11px;
+  top: 6px;
   position: absolute;
   height: 125px;
   width: 100px;
   /* right: 700px; */
   display: block;
-  left: 670px;
+  left: 700px;
   border: solid #FEF4D4;
   border-radius: 50%;
 }
@@ -290,8 +290,9 @@ input, textarea{
 
 .articles {
   border: solid black;
-  width: 700px;
-  height: 1000px;
+  background-color: #FEF4D4;
+  width: 1457px;
+  height: 900px;
   margin-top: 50px;
   padding-top: 20px;
 }
@@ -369,4 +370,3 @@ label{
   /* position: absolute; */
   /* justify-content: center; */
   /* right: 36.5%; */
-
