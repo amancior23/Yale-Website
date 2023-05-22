@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 #email {
   text-decoration: underline;
 }
@@ -17,7 +23,7 @@
 
 .container{
   /* position: fixed;  */
-  height: 100%;
+  height: 100vh;
   width: 100%; 
 }
 
@@ -34,7 +40,7 @@
   width: 100px;
   /* right: 700px; */
   display: block;
-  left: 700px;
+  left: 47%;
   border: solid #FEF4D4;
   border-radius: 50%;
 }
@@ -132,10 +138,10 @@ p {
 }
 
 .boddy{
-  position:relative;
+  /* position:relative; */
   width: 100%;
   background-color:#00356b;
-  /* height: 1000px; */
+  height: 100%;
 }
 
 .backgroundImg{
@@ -143,7 +149,7 @@ p {
   /* position: absolute;
   top: 10px; */
   width:inherit;
-  height: 700px; 
+  height: 100vh; 
   opacity: .7;
   background-color: #e3dac9;
 }
@@ -291,7 +297,7 @@ input, textarea{
 .articles {
   border: solid black;
   background-color: #FEF4D4;
-  width: 1457px;
+  width: 98%;
   height: 900px;
   margin-top: 50px;
   padding-top: 20px;
